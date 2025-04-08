@@ -9,8 +9,7 @@ La solución se construyó con un enfoque profesional de ciencia de datos, inclu
 ## 📁 Estructura del Proyecto
 
 - `notebooks/`: análisis exploratorio, generación de features y entrenamiento de modelos.
-- `data/`: scripts o referencias para obtener los datos (sin archivos CSV subidos).
-- `models/`: modelos entrenados exportados (opcional).
+- `data/`
 - `reports/`: visualizaciones y resultados de los modelos.
 - `requirements.txt`: librerías necesarias para reproducir el proyecto.
 
