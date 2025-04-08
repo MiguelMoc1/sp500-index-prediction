@@ -34,3 +34,42 @@ La solución se construyó con un enfoque profesional de ciencia de datos, inclu
 | Gradient Boosting   | 0.00247 | 0.00316 | 0.8480 |
 
 ---
+# 📂 Instrucciones para Obtener los Datos
+
+Este proyecto utiliza el dataset **"S&P 500 Stocks - Daily Updated"** disponible en Kaggle:
+
+🔗 https://www.kaggle.com/datasets/andrewmvd/sp-500-stocks
+
+---
+
+## ✅ Cómo descargar los datos
+
+1. Asegúrate de tener una cuenta en [Kaggle](https://www.kaggle.com/).
+2. Instala la API de Kaggle si no la tienes:
+   ```bash
+   pip install kaggle
+   ```
+3. Coloca tu archivo `kaggle.json` (con tu API Token de Kaggle) en la carpeta `~/.kaggle/`.  
+   Puedes descargarlo desde: https://www.kaggle.com/account
+
+4. Verifica o configura el path con:
+   ```bash
+   kaggle config set -n path -v ~/.kaggle/
+   ```
+
+5. Descarga y descomprime los datos directamente en la carpeta `data/` del proyecto:
+   ```bash
+   kaggle datasets download -d andrewmvd/sp-500-stocks -p data --unzip
+   ```
+
+---
+
+## 📄 Archivos esperados
+
+Después de la descarga, asegúrate de tener estos archivos dentro del directorio `data/`:
+
+- `sp500_stocks.csv`
+- `sp500_index.csv`
+- `sp500_companies.csv`
+
+---
